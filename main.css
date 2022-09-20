@@ -172,15 +172,13 @@ summary::marker{
 /* forms */
 
 .forms{
-    background: #20897b;
+    background:  #20897b !important;
     color: white;
 }
-.forms i{
-    margin-left: 1.3rem;
-}
+
 .icon_form {
     background-color: white;
-
+display: flex;
 }
 .forms a{
     color: white;
@@ -190,6 +188,16 @@ summary::marker{
     background-color: white;
 }
 
-first_act{
+.first_act{
     background-color:#20897b;;
+}
+.icon{
+    display: block;
+    margin: auto;
+    width: 2.3rem;
+}
+
+.icon_form{
+    width: fit-content;
+    margin-right: 2rem;
 }
